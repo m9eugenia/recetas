@@ -1,0 +1,155 @@
+@font-face {
+  font-family: Montserrat-Thin; 
+  src: url(fuentes/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(fuentes/Montserrat-Medium.ttf);
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+nav.menu {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: fixed;
+}
+
+#button {
+  padding: 0;
+  width: 100%;
+  display: flex;   
+  justify-content: space-evenly; 
+  background-color: rgb(175, 85, 123);
+
+}
+
+#button li{
+  display: block;
+  color: white;
+}
+
+#button li a {
+  font-family: Montserrat-Thin;
+  font-size: 13px;
+  text-decoration: none;
+  float: left; 
+  padding: 10px; 
+  background-color: rgb(175, 85, 123);
+  color: white;
+  
+}
+
+#button li a:hover {
+  background-color: rgb(165, 130, 144);
+  margin-top: -2;
+}
+
+#entero {
+  width: 900px;
+  margin: auto;
+}
+.principal {
+  width: 600px;
+  float: left;
+}
+
+.recipe-card {
+  font-size: 16px;
+  font-family: Montserrat-Thin;
+  font-weight: bold;
+  text-align: justify;
+  margin: 20px;
+  margin-bottom: 70px;
+}
+
+.imagen {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  font-size: 16px; 
+}
+
+.aside {
+  float: right;
+  width: 160px;
+  height: 500px;
+  color: black;
+  padding: 20px;
+  text-align: left;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 50px;
+  border: solid 1px ;
+  border-color:rgb(175, 85, 123);
+}
+
+ul li::marker {
+  color: teal;
+  font-size: 0.5em;
+}
+
+
+h3.titulo {
+  font-family: Montserrat-Thin;
+}
+
+  h3.ingredientes {
+    color: teal;
+    font-family: Montserrat-thin;
+  }
+
+h3.preparacion {
+  text-transform: capitalize;
+  color: teal;
+  font-family: Montserrat-Thin;
+}
+
+
+.perfil {
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+
+}
+
+.aside {
+  font-family: Montserrat-Thin;
+}
+
+ul.listado {
+  font-family: Montserrat-Thin;
+  font-weight: bold;
+  
+}
+
+.listado {
+  list-style: square;
+}
+
+p.paragrafo {
+  font-family: Montserrat-Thin;
+  font-weight: bold;
+  
+}
+
+h1.h1 {
+  font-family: Montserrat-Medium;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.post-share {
+  height: 0px;
+  border-top: solid 1px rgb(175, 85, 123);
+  margin: 60px 0; 
+}
+
+
